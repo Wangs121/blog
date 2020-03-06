@@ -144,7 +144,7 @@ class="areaBox___Sl7gp themeA___1BO7o -sitemap-select-item-selected"
 * `new selector`新建选择器
   * id 自己随便叫吧，我叫它message
   * 类型为Element
-  * Selector手动填入，复制`fold___85nCd`，输入p.再粘贴（`p`表示parent，表示上级标签，可以省略，`.`表示类（class），若是id则用`#`）
+  * Selector手动填入，复制`fold___85nCd`，输入`div.`再粘贴（`div`是标签类型，可以省略，若有父级Element选择器则可以省略，`.`表示类（class），若是id则用`#`）
   * 保存前可以`Element preview`预览一下选择的地方
   * `Save selector`
 
@@ -178,7 +178,7 @@ class="areaBox___Sl7gp themeA___1BO7o -sitemap-select-item-selected"
 
 ![tutorial16](https://i.imgur.com/hMfED4L.png) 
 
-（`p`表示parent，可以省略）
+（`p`表示标签类型，可以省略）
 
 创建要爬取内容数量的选择器
 
