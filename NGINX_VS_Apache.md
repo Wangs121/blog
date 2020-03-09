@@ -9,6 +9,8 @@ date : 2020-03-09
 
 [TOC]
 
+![Nginx_Apache_Blog-1](https://serverguy.b-cdn.net/wp-content/uploads/2019/01/Nginx_Apache_Blog-1.jpg)
+
 本文将详细讨论Apache和NGINX服务器的区别。
 
 * 哪个才是最快的网页服务器？
