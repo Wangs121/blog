@@ -5,8 +5,6 @@ date : 2020-03-12
 
 树莓派默认会挂载一些主流的文件格式（如`FAT`，`NTFS`和`HFS+`）储存盘于 `/media/pi/<HARD-DRIVE-LABEL> `
 
-
-
 要修改挂载文件位置或者挂载其他格式的文件系统，则需要我们手动来做。
 
 
@@ -167,7 +165,13 @@ sudo apt install exfat-utils
 sudo reboot
 ```
 
-重启后[查看已挂载的设备](#check)
+重启后使用
+
+```shell
+df -h
+```
+
+查看已挂载的设备
 
 
 

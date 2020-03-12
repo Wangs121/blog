@@ -162,7 +162,7 @@ http://192.168.0.107:8112
 
   在文件中添加
 
-  ```
+  ```sh
   [Unit]
   Description=Deluge Daemon
   After=network-online.target
@@ -200,7 +200,7 @@ http://192.168.0.107:8112
 
   添加以下内容
 
-  ```
+  ```sh
   [Unit]
   Description=Deluge Web Interface
   After=network-online.target deluged.service
@@ -230,7 +230,7 @@ http://192.168.0.107:8112
 
 接着重启测试
 
-```
+```shell
 sudo reboot
 ```
 
