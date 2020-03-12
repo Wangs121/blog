@@ -97,15 +97,14 @@ sudo apt install exfat-utils
 
     ```shell
     sudo umount /PATH/OF/DEVICE
-
-    ```
-
-    例如取消挂载`/dev/sda1`，则运行
-
-    ```shell
+```
+    
+例如取消挂载`/dev/sda1`，则运行
+    
+```shell
     sudo umount /dev/sda1
     ```
-
+    
 * 若设备忙碌中，执行
 
 	```shell
@@ -133,18 +132,16 @@ sudo apt install exfat-utils
     sudo nano /etc/fstab
     ```
 
-    在文件最后添加，替换`[DEVICE]`，`[UUID]`和`[type]`为自己的。
+    在文件最后添加，替换`[DIR]`，`[UUID]`和`[type]`为自己的。
 
     ```
-    UUID=[UUID] [DEVICE] [TYPE] defaults,nofail,noatime 0 0
+    UUID=[UUID] [DIR] [TYPE] defaults,nofail,noatime 0 0
     ```
     例如我的为
 
     ```
-    UUID=6846-A31E /dev/sda1 exfat defaults,nofail,noatime 0 0
+    UUID=6846-A31E /home/pi/myDevice exfat defaults,nofail,noatime 0 0
     ```
-
-    
 
     编辑完成后`ctrl+x`+`y`+`回车`保存退出
 

@@ -89,7 +89,7 @@ deluged
 #### 启动deluge web
 
 ```shell
-deluged-web
+deluge-web
 ```
 
 #### 关闭deluge:
@@ -272,11 +272,7 @@ python --version
 * 修改`hostname`为树莓派ip，`Apply`应用，`ok`关闭
 * 复制串流连接，使用支持网络串流的播放器（例如VLC，MX Player）播放即可
 
-## 常见问题
 
-* 下载卡在了Downloading 0.0%
-
-  断开ssh
 
 
 ## 参考内容
