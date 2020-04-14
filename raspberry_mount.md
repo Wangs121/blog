@@ -97,20 +97,21 @@ sudo apt install exfat-utils
 
     ```shell
     sudo umount /PATH/OF/DEVICE
-```
-    
-例如取消挂载`/dev/sda1`，则运行
-    
-```shell
-    sudo umount /dev/sda1
     ```
+
+	例如取消挂载`/dev/sda1`，则运行
     
+	```shell
+    sudo umount /dev/sda1
+	```
+
 * 若设备忙碌中，执行
 
 	```shell
     sudo umount -l /PATH/OF/BUSY-DEVICE
     sudo umount -f /PATH/OF/BUSY-NFS(NETWORK-FILE-SYSTEM)
   ```
+```
 
 	即可直接暂停使用并移除挂载
 
@@ -120,10 +121,10 @@ sudo apt install exfat-utils
 
     ```shell
     sudo blkid /dev/sda1
-    ```
+```
 
     从此命令可得到设备`UUID`和`type`等信息。
-
+    
     记下设备的UUID和type
 
 2. 修改`fstab`来设置自动挂载
